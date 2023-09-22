@@ -11,7 +11,7 @@ Kelompok D24.
 ### Penyelesaian
 ![no1-jarkom1](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/940c4311-cb7d-4fc3-b5be-d173b72f7ba4)
 <br>
-Dari packet yang ter-capture kita menemukan bahwa perintah yang dilakukan oleh user adalah STOR (mengunggah file). Setelah membuka packet tersebut, dengan cara klik kanan 2 kali, kita dapat menemukan sequence dan acknowledge number (raw) dan jika kita melakukan klik kanan kemudian ```follow``` -> ```TCP Stream``` kita dapat melihat Response yang didapat kemudian dengan cara yang sama kita dapat melihat sequence dan acknowledge number (raw)-nya
+Dari packet yang ter-capture kita menemukan bahwa perintah yang dilakukan oleh user adalah ```STOR``` (mengunggah file). Setelah membuka packet tersebut, dengan cara klik kanan 2 kali, kita dapat menemukan sequence dan acknowledge number (raw) dan jika kita melakukan klik kanan kemudian ```follow``` -> ```TCP Stream``` kita dapat melihat Response yang didapat kemudian dengan cara yang sama kita dapat melihat sequence dan acknowledge number (raw)-nya
 
 ### Kendala
 Tidak ada
@@ -56,7 +56,7 @@ Tidak ada.
 ### Penyelesaian
 ![no5-jarkom1(1)](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/2eec6301-7aa5-4afa-90f5-7146264abdfc)
 <br>
-Dengan melihat packet yang ada kita melihat ada info yang mencurigakan dengan tulisan ‘Pass’ setelah kita klik kanan kemudian ```follow``` -> ```TCP Stream``` kita menemukan password dari file zip berupa enkripsi dalam base64.
+Dengan melihat packet yang ada kita melihat ada info yang mencurigakan dengan tulisan ```Pass``` setelah kita klik kanan kemudian ```follow``` -> ```TCP Stream``` kita menemukan password dari file zip berupa enkripsi dalam base64.
 <br>
 <br>
 ![no5-jarkom1(2)](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/8c4f2dec-de63-476b-8843-3f25eafde368)
@@ -66,7 +66,7 @@ Setelah kita lakukan deskripsi dan memasukka password tersebut ke file zip yang 
 <br>
 ![no5-jarkom1(3)](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/423fc2c4-3b37-4435-aec6-ab3c0d53e1a4)
 <br>
-Kemudia akan muncul pertanyaan-pertanyaan selanjutnya yang bisa kita isi untuk mendapatkan flagnya
+Kemudia akan muncul pertanyaan-pertanyaan selanjutnya yang bisa kita isi untuk mendapatkan flag-nya
 <br>
 <br>
 ### Kendala
@@ -90,7 +90,7 @@ Memahami soal, teka-teki terlalu dipaksakan.
 ### Penyelesaian
 ![no7-jarkom1](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/44ac0bf8-a672-4e10-998a-0b035d06a3d6)
 <br>
-Menggunakan filter “ip.dst == 184.87.193.88”, dan ditampilkan 6 pckg.
+Menggunakan filter “ip.dst == 184.87.193.88”, dan ditampilkan 6 packages.
 <br>
 ### Kendala
 Tidak ada
@@ -99,7 +99,7 @@ Tidak ada
 ![no8pcapwsl](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/4d85b834-a552-4194-8dbe-9298d2431980)
 <br>
 pada display filter masukan syntax ```tcp.dstport == 80 || udp.dstport == 80```, maka akan menunjukan bahwa Syntax berhasil
-```tcp``` dan ```udp``` menandakan jenis protokol yang digunakan. tanda ```||``` menandakan ```atau```. sehingga kueri akan menampilkan seluruh jenis protokol yang menuju ```port 80```
+```tcp``` dan ```udp``` menandakan jenis protokol yang digunakan. Tanda ```||``` menandakan ```atau```. sehingga kueri akan menampilkan seluruh jenis protokol yang menuju ```port 80```
 
 ### Kendala
 Tidak ada.
@@ -117,6 +117,6 @@ tidak ada.
 ## No10
 ### Penyelesaian
 ![no10pcapwsl](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/6800f811-cda9-47bc-a740-b32def9428a3)
-filter ```TELNET``` dan klik kanan lalu ```follow``` -> ```TCP stream```. di sinii ada di frame number ```285```
+filter ```TELNET``` dan klik kanan lalu ```follow``` -> ```TCP stream```. Di sini ada di frame number ```285```
 ### Kendala
 Tidak ada.
