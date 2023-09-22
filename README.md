@@ -9,7 +9,7 @@ Kelompok D24.
 
 ## No1
 ### Penyelesaian
-< img src="assets/no1-jarkom1.jpg" width="700" >
+<img src="assets/no1-jarkom1.jpg" width="700" >
 Dari packet yang ter-capture kita menemukan bahwa perintah yang dilakukan oleh user adalah STOR (mengunggah file). Setelah membuka packet tersebut, dengan cara klik kanan 2 kali, kita dapat menemukan sequence dan acknowledge number (raw) dan jika kita melakukan klik kanan kemudian ```follow``` -> ```TCP Stream``` kita dapat melihat Response yang didapat kemudian dengan cara yang sama kita dapat melihat sequence dan acknowledge number (raw)-nya
 ### Kendala
 ## No2
