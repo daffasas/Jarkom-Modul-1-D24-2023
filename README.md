@@ -9,6 +9,8 @@ Kelompok D24.
 
 ## No1
 ### Penyelesaian
+< img src="assets/no1-jarkom1.jpg" width="100" >
+Dari packet yang ter-capture kita menemukan bahwa perintah yang dilakukan oleh user adalah STOR (mengunggah file). Setelah membuka packet tersebut, dengan cara klik kanan 2 kali, kita dapat menemukan sequence dan acknowledge number (raw) dan jika kita melakukan klik kanan kemudian ```follow``` -> ```TCP Stream``` kita dapat melihat Response yang didapat kemudian dengan cara yang sama kita dapat melihat sequence dan acknowledge number (raw)-nya
 ### Kendala
 ## No2
 ### Penyelesaian
@@ -30,6 +32,9 @@ Dan akan muncul informasi Server menggunakan ```gunicorn``` seperti pada di gamb
 ### Kendala
 ## No7
 ### Penyelesaian
+< img src="assets/no7-jarkom1(2).jpg" width="100" >
+< img src="assets/no7-jarkom1.jpg" width="100" >
+Menggunakan filter “ip.dst == 184.87.193.88”, dan ditampilkan 6 pckg.
 ### Kendala
 ## No8
 ### Penyelesaian
