@@ -11,7 +11,10 @@ Kelompok D24.
 ### Penyelesaian
 <img src="assets/no1-jarkom1.jpg" width="900" >
 Dari packet yang ter-capture kita menemukan bahwa perintah yang dilakukan oleh user adalah STOR (mengunggah file). Setelah membuka packet tersebut, dengan cara klik kanan 2 kali, kita dapat menemukan sequence dan acknowledge number (raw) dan jika kita melakukan klik kanan kemudian ```follow``` -> ```TCP Stream``` kita dapat melihat Response yang didapat kemudian dengan cara yang sama kita dapat melihat sequence dan acknowledge number (raw)-nya
+
 ### Kendala
+Tidak ada
+
 ## No2
 ### Penyelesaian
 <img src="assets/2pcap.png" width="700" >
@@ -38,8 +41,8 @@ Tidak ada.
 ### Kendala
 ## No7
 ### Penyelesaian
-< img src="assets/no7-jarkom1(2).jpg" width="100" >
-< img src="assets/no7-jarkom1.jpg" width="100" >
+< img src="assets/no7-jarkom1(2).jpg" width="900" >
+< img src="assets/no7-jarkom1.jpg" width="900" >
 Menggunakan filter “ip.dst == 184.87.193.88”, dan ditampilkan 6 pckg.
 ### Kendala
 ## No8
