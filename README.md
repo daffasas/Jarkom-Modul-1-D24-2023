@@ -29,7 +29,7 @@ Tidak ada.
 ## No3
 ### Penyelesaian
 ![no3pcap](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/1aaf8b5e-ec70-4b63-b9f7-65197417adae)
-asdasd
+Pertama di display filter masukan syntax ```ip.addr == 239.255.255.250 and udp.port == 3702```. Syntax ini digunakan untuk mencari IP dengan address  ```239.255.255.250``` yang berada pada port ```3702```. Hasilnya menunjukan sebanyak 21 pada IP dan Port tersebut dengan Protocol ```UDP```
 ![no3wsl](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/7b5bf085-00b1-4c20-b13c-3b3e978184e5)
 ### Kendala
 Tidak ada.
@@ -37,7 +37,7 @@ Tidak ada.
 ## No4
 ### Penyelesaian
 ![no4pcapwsl](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/5b4b543b-5aed-4df3-b8e6-025e301dc9ab)
-
+Pertama lihat package no ```130``` dengan ```frame.number == 130```, lalu lihat pada bagian kiri bawah pada User Datagram Protocol lalu liat ```Checksum``` tertuliskan ```0x18e5```.
 ### Kendala
 Tidak ada.
 ## No5
@@ -46,9 +46,11 @@ Tidak ada.
 ## No6
 ### Penyelesaian
 ![6pcap](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/125af98f-c258-4d7c-9ade-d0b55c8fd9ec)
-asdasd
+Pertama adalah cari nomor ```7812``` dengan ```frame.number == 7812``` sesuai dengan soal. Lalu, IP Source didecrypt berdasarkan angka ```(A=1)```, maka hasilnya adalah ```JDRNJA```
+
 ![6decrypt](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/82a6d6ae-d8ee-4dac-a818-89b677009074)
 ### Kendala
+Memahami soal, teka-teki terlalu dipaksakan.
 ## No7
 ### Penyelesaian
 Menggunakan filter “ip.dst == 184.87.193.88”, dan ditampilkan 6 pckg.
