@@ -14,10 +14,16 @@ Dari packet yang ter-capture kita menemukan bahwa perintah yang dilakukan oleh u
 ### Kendala
 ## No2
 ### Penyelesaian
-< img src="assets/2wsl.jpg" width="100" >
+<img src="assets/2pcap.png" width="700" >
 Menggunakan filter ```http contains 10.21.78.111``` klik kanan, dan ```follow``` -> ```TCP Stream```
 Dan akan muncul informasi Server menggunakan ```gunicorn``` seperti pada di gambar.
+<br>
+<br>
+<img src="assets/2wsl.jpg" width="700" >
+
 ### Kendala
+Tidak ada.
+
 ## No3
 ### Penyelesaian
 ### Kendala
