@@ -12,7 +12,7 @@ Kelompok D24.
 ### Kendala
 ## No2
 ### Penyelesaian
-2wsl.jpg
+< img src="assets/2wsl.jpg" width="100" >
 Menggunakan filter ```http contains 10.21.78.111``` klik kanan, dan ```follow``` -> ```TCP Stream```
 Dan akan muncul informasi Server menggunakan ```gunicorn``` seperti pada di gambar.
 ### Kendala
