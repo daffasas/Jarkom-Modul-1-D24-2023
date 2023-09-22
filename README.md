@@ -51,9 +51,24 @@ Tidak ada.
 Pertama lihat package no ```130``` dengan ```frame.number == 130```, lalu lihat pada bagian kiri bawah pada User Datagram Protocol lalu liat ```Checksum``` tertuliskan ```0x18e5```.
 ### Kendala
 Tidak ada.
+
 ## No5
 ### Penyelesaian
+![no5-jarkom1(1)](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/2eec6301-7aa5-4afa-90f5-7146264abdfc)
+<br>
+Dengan melihat packet yang ada kita melihat ada info yang mencurigakan dengan tulisan ‘Pass’ setelah kita klik kanan kemudian ```follow``` -> ```TCP Stream``` kita menemukan password dari file zip berupa enkripsi dalam base64.
+<br>
+![no5-jarkom1(2)](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/8c4f2dec-de63-476b-8843-3f25eafde368)
+<br>
+Setelah kita lakukan deskripsi dan memasukka password tersebut ke file zip yang tersedia maka kita akan mendapat perintah selanjutnya  yaitu membuka ```nc 10.21.78.111 11111```
+<br>
+![no5-jarkom1(3)](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/423fc2c4-3b37-4435-aec6-ab3c0d53e1a4)
+<br>
+Kemudia akan muncul pertanyaan-pertanyaan selanjutnya yang bisa kita isi untuk mendapatkan flagnya
+<br>
 ### Kendala
+Tidak ada
+
 ## No6
 ### Penyelesaian
 ![6pcap](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/125af98f-c258-4d7c-9ade-d0b55c8fd9ec)
@@ -67,13 +82,12 @@ Pertama adalah cari nomor ```7812``` dengan ```frame.number == 7812``` sesuai de
 <br>
 ### Kendala
 Memahami soal, teka-teki terlalu dipaksakan.
+
 ## No7
 ### Penyelesaian
 ![no7-jarkom1](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/44ac0bf8-a672-4e10-998a-0b035d06a3d6)
 <br>
-<br>
 Menggunakan filter “ip.dst == 184.87.193.88”, dan ditampilkan 6 pckg.
-<br>
 <br>
 ### Kendala
 Tidak ada
