@@ -4,11 +4,13 @@ Kelompok D24.
 
 <ul>
   <li>Daffa Saskara - 5025211249</li>
-  <li>Arun</li>
+  <li>Arundaya Pratama Nurhasan - 5025221205</li>
 </ul>
 
 ## No1
 ### Penyelesaian
+![no1-jarkom1](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/940c4311-cb7d-4fc3-b5be-d173b72f7ba4)
+<br>
 Dari packet yang ter-capture kita menemukan bahwa perintah yang dilakukan oleh user adalah STOR (mengunggah file). Setelah membuka packet tersebut, dengan cara klik kanan 2 kali, kita dapat menemukan sequence dan acknowledge number (raw) dan jika kita melakukan klik kanan kemudian ```follow``` -> ```TCP Stream``` kita dapat melihat Response yang didapat kemudian dengan cara yang sama kita dapat melihat sequence dan acknowledge number (raw)-nya
 
 ### Kendala
@@ -67,8 +69,14 @@ Pertama adalah cari nomor ```7812``` dengan ```frame.number == 7812``` sesuai de
 Memahami soal, teka-teki terlalu dipaksakan.
 ## No7
 ### Penyelesaian
+![no7-jarkom1](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/120204570/44ac0bf8-a672-4e10-998a-0b035d06a3d6)
+<br>
+<br>
 Menggunakan filter “ip.dst == 184.87.193.88”, dan ditampilkan 6 pckg.
+<br>
+<br>
 ### Kendala
+Tidak ada
 ## No8
 ### Penyelesaian
 ![no8pcapwsl](https://github.com/daffasas/Jarkom-Modul-1-D24-2023/assets/88588446/4d85b834-a552-4194-8dbe-9298d2431980)
